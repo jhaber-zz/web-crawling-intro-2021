@@ -1,4 +1,4 @@
-[![Binder]()
+[![Binder](https://mybinder.org/v2/gh/jhaber-zz/web-crawling-intro-2021/HEAD)
 
 # Web-Crawling: A Practical Introduction in Python
 ## A workshop with the [Massive Data Institute](https://mccourt.georgetown.edu/research/the-massive-data-institute/), Georgetown University
