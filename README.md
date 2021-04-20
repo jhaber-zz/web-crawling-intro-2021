@@ -8,12 +8,24 @@
 
 When it comes to data collection, web-crawling (i.e., web-scraping, screen-scraping) is a common approach in our increasingly digital era--and a common stumbling block. With such a wide range of tools and languages available (Selenium, Requests, and HTML, to name just a few), developing and implementing a web-crawling pipeline is often a frustrating experience for researchers--especially those without a computer science background.
 
-Whatever your background, this workshop will give you the foundation to use web-crawling in your research. We will tackle common problems including collecting web addresses/URLs (by automated Google search), downloading website copies (with wget), non-scalable website scraping (with requests), and scalable crawling of text and images (with scrapy). No web-crawling experience is required, but some Python know-how is expected. 
+Whatever your background, this workshop will give you the foundation to use web-crawling in your research. We will tackle common problems including collecting web addresses/URLs (by automated Google search), downloading website copies (with wget), non-scalable website scraping (with requests), and scalable crawling of text (with scrapy). No web-crawling experience is required, but some Python know-how is expected. 
 
 
 ## Workshop goals
 
-* TBD
+* Understand how web-crawling and -scraping are useful for digital data collection
+* Build intuitions around the uses and limits of:
+  - APIs (Application Programming Interfaces)
+  - Exploiting website structure (HTML/CSS)
+  - Scalable crawling
+* Be familiar with common problems in web-crawling and their fixes, like:
+  - Nested websites --> vertical crawling (link extraction)
+  - Getting blocked --> polite pauses
+* Gain practice with: 
+  - Collecting domains to scrape
+  - Scalable and non-scalable website scraping
+  - Parsing website text (with BeautifulSoup)
+  - wget, Requests, and Scrapy
 
 
 ## Prerequisites
