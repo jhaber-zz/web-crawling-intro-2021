@@ -44,25 +44,52 @@ pip3 install -r requirements.txt
 ```
 
 
-## Open-Access, Online Resources on Python, Jupyter Notebooks, and Web-Crawling
+## Open-Access Resources 
+
+### Python and Jupyter Notebooks
 
 * [Introduction to Jupyter Notebooks (Real Python)](https://realpython.com/jupyter-notebook-introduction/)
 * [Quick Python intro (a Jupyter Notebook)](https://github.com/jhaber-zz/nlp-python-2020/blob/master/solutions/intro-to-python.ipynb)
-* [Great book on Python (with exercises): “Python for Everybody” (Charles Severance)](https://www.py4e.com/book.php)
+* [Great book on Python (with exercises): _Python for Everybody_ (Charles Severance)](https://www.py4e.com/book.php)
 * [Official Python Tutorial](https://docs.python.org/3/tutorial/index.html)
 * [Python tutorials for social scientists (Neal Caren)](https://nealcaren.github.io/python-tutorials/)
+
+### Web-crawling with Scrapy & friends
+
+* [Official Scrapy tutorial](https://docs.scrapy.org/en/latest/intro/tutorial.html)
+* [Blog on using item pipelines in Scrapy](https://medium.com/swlh/how-to-use-scrapy-items-05-python-scrapy-tutorial-for-beginners-f25ff2dceaa9)
+* [Storing Scrapy output to MongoDB (humongous database!)](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
+* [Examples of using wget to download from websites](https://phoenixnap.com/kb/wget-command-with-examples)
+* [Scale Scrapy with a pre-cooked Docker assemblage: Scrapy Cluster](https://scrapy-cluster.readthedocs.io/en/latest)
+
+### O'Reilly books: Available free to Georgetown students/affiliates ([log in here then search for books](https://www.safaribooksonline.com/library/view/temporary-access/))
+
+* [Popular intro book with Ch. 12 on web-scraping: _Automate the Boring Stuff with Python_](https://nostarch.com/automatestuff2)
+* [Complete scraping intro: _Web-scraping with Python_](http://shop.oreilly.com/product/0636920078067.do)
+* [Detailed look at mechanics and approaches in Scrapy](https://learning.oreilly.com/library/view/learning-scrapy/9781784399788/)
+* [Video tutorial on APIs, RSS, and Scraping from PyCon](https://youtu.be/A42voDYkFZw)
+
+### Other useful libraries
+
+* [Parse HTML, by author of Requests library: requests-HTML](http://html.python-requests.org/)
+* [Extract different parts of URL: furl](https://github.com/gruns/furl)
+* [Parse CSS files: cssutils](http://cthedot.de/cssutils/)
+* [Parse common formats in newspaper data: newspaper](https://newspaper.readthedocs.io/en/latest/)
+* [Scrape from the past: Internet Archive Python Library](https://archive.org/services/docs/api/internetarchive/index.html)
+* [Browser automation for handling interactive, JavaScript-heavy pages: Selenium](https://www.selenium.dev/)
 
 
 ## Contributing
 
-If you spot a problem with these materials, please make an issue describing the problem or contact Jaren at jhaber@berkeley.edu. 
+If you spot a problem with these materials, please make an issue describing the problem or contact Jaren at jhaber@berkeley.edu. If you want to suggest additional resources or materials, please branch and make a pull request!
 
 
 ## Acknowledgments
 
 * [D-Lab at the University of California, Berkeley](https://dlab.berkeley.edu/)
 * [Summer Institute in Computational Social Science](https://sicss.io/)
-* [Geoff Bacon](https://geoffbacon.github.io/)
+* [Geoff Bacon](https://geoffbacon.github.io/), especially his [Introduction to web scraping workshop](https://github.com/TextXD/introduction-to-web-scraping)
+* [Rochelle Terman](http://rochelleterman.com/), especially her [Web Scraping and Data Management in R summer course](https://github.com/rochelleterman/ESS-webscraping)
 
 <br>
 
