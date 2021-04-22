@@ -1,0 +1,10 @@
+pandas==0.25.3
+numpy==1.17.2
+beautifulsoup4==4.8.0
+lxml==4.4.2
+scrapy==2.5.0
+requests==2.24.0
+tldextract==3.1.0
+textract==1.6.3
+python-google-places==1.4.2
+google==3.0.0
