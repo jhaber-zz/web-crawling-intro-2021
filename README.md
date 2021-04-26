@@ -61,12 +61,6 @@ pip3 install -r requirements.txt
 * [Storing Scrapy output to MongoDB (humongous database!)](https://realpython.com/web-scraping-with-scrapy-and-mongodb/)
 * [Examples of using wget to download from websites](https://phoenixnap.com/kb/wget-command-with-examples)
 * [Scale Scrapy with a pre-cooked Docker assemblage: Scrapy Cluster](https://scrapy-cluster.readthedocs.io/en/latest)
-
-### O'Reilly books: Available free to Georgetown students/affiliates ([log in here then search for books](https://www.safaribooksonline.com/library/view/temporary-access/))
-
-* [Popular intro book with Ch. 12 on web-scraping: _Automate the Boring Stuff with Python_](https://nostarch.com/automatestuff2)
-* [Complete scraping intro: _Web-scraping with Python_](http://shop.oreilly.com/product/0636920078067.do)
-* [Detailed look at mechanics and approaches in Scrapy](https://learning.oreilly.com/library/view/learning-scrapy/9781784399788/)
 * [Video tutorial on APIs, RSS, and Scraping from PyCon](https://youtu.be/A42voDYkFZw)
 
 ### Other useful libraries
@@ -78,6 +72,12 @@ pip3 install -r requirements.txt
 * [Scrape from the past: Internet Archive Python Library](https://archive.org/services/docs/api/internetarchive/index.html)
 * [Browser automation for handling interactive, JavaScript-heavy pages: Selenium](https://www.selenium.dev/)
 
+## O'Reilly books on scraping
+These are available free to Georgetown students/affiliates ([log in here then search for books](https://www.safaribooksonline.com/library/view/temporary-access/))
+
+* [Popular intro book with Ch. 12 on web-scraping: _Automate the Boring Stuff with Python_](https://nostarch.com/automatestuff2)
+* [Complete scraping intro: _Web-scraping with Python_](http://shop.oreilly.com/product/0636920078067.do)
+* [Detailed look at mechanics and approaches in Scrapy](https://learning.oreilly.com/library/view/learning-scrapy/9781784399788/)
 
 ## Contributing
 
