@@ -93,4 +93,4 @@ If you spot a problem with these materials, please make an issue describing the 
 
 <br>
 
-![MDI logo](assets/mdi_logo.png)
+![MDI logo](extra/mdi_logo.png)
