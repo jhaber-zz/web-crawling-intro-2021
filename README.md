@@ -46,6 +46,8 @@ pip3 install -r requirements.txt
 
 ## Open-Access Resources 
 
+* [Slides for day 1](http://bit.ly/slides-crawl-2021) (also in folder above)
+
 ### Python and Jupyter Notebooks
 
 * [Introduction to Jupyter Notebooks (Real Python)](https://realpython.com/jupyter-notebook-introduction/)
