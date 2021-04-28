@@ -10,3 +10,4 @@ textract==1.6.3
 pandas==0.25.3
 numpy==1.17.2
 tqdm==4.48.2
+regex==2021.4.4
