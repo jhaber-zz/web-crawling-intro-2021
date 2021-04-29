@@ -27,14 +27,14 @@ USAGE
           file may contain more than just the most recent output.
 
     # Run spider with logging, and append to an output JSON file
-    scrapy runspider generic.py \
+    scrapy runspider recursive_text_spider.py \
         -o school_output_test.json \
         -a domain_list=test_urls.csv \
         --loglevel INFO \
         --logfile textspider_tutorial.log
 
     # Run spider in the background with `nohup`
-    nohup scrapy runspider generic.py \
+    nohup scrapy runspider recursive_text_spider.py \
         -o school_output_test.json \
         -a domain_list=test_urls.csv \
         --loglevel INFO \
@@ -43,20 +43,16 @@ USAGE
 
 # Install libraries
 import tldextract
-import csv
+import csv, re
 from bs4 import BeautifulSoup # BS reads and parses even poorly/unreliably coded HTML 
 from bs4.element import Comment # helps with detecting inline/junk tags when parsing with BS
 import lxml # fast bs4 parser
 from scrapy.linkextractors import LinkExtractor
 from scrapy.spiders import Rule, CrawlSpider
 
-# The following are required for parsing File text
-import re
-from urllib.parse import urlparse
-import requests
+from project.items import ProjectItem # update to reflect name of project
 
-
-# Define inline tags for cleaning out HTML
+# Define inline tags for cleaning HTML via blacklist
 inline_tags = ["b", "big", "i", "small", "tt", "abbr", "acronym", "cite", "dfn", "kbd", 
                "samp", "var", "bdo", "map", "object", "q", "span", "sub", "sup", "head", 
                "title", "[document]", "script", "style", "meta", "noscript"]
@@ -112,7 +108,7 @@ class RecursiveTextSpider(CrawlSpider):
     # Method for parsing items
     def parse_items(self, response):
         
-        item = CharterItem()
+        item = ProjectItem()
         item['url'] = response.url
         item['text'] = self.get_text(response)
         domain = self.get_domain(response.url)    
